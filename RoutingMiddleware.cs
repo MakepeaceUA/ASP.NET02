@@ -63,7 +63,7 @@ public class RoutingMiddleware
             }
 
             var file = form.Files["photo"];
-            string imagePath = "/images/no-image.png"; // заглушка
+            string imagePath = "/images/no-image.png";
 
             if (file != null && file.Length > 0)
             {
@@ -187,4 +187,5 @@ public class RoutingMiddleware
             await context.Response.WriteAsync("Страница не найдена");
         }
     }
+
 }
