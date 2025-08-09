@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Учёт товара</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Учёт товаров</h1>
+        <a href="/add" class="btn">Добавить товар</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Название</th>
+                    <th>Цена</th>
+                    <th>Фото</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{PRODUCT_ROWS}}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

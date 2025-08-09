@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn-secondary {
+    background: #6c757d;
+}
+
+.btn-secondary:hover {
+    background: #565e64;
+}
+
+.btn-small {
+    padding: 4px 8px;
+    font-size: 14px;
+    margin: 0 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+}
+
+.btn-small:hover {
+    background: #0056b3;
+}
+
+.btn-danger {
+    background: #d9534f;
+}
+
+.btn-danger:hover {
+    background: #c9302c;
+}
+
+.form-card label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-card input[type="text"],
+.form-card input[type="number"],
+.form-card input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+
+.form-buttons {
+    margin-top: 20px;
+}
+
+.thumb {
+    width: 60px;
+    border-radius: 6px;
+}
